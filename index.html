@@ -3,40 +3,101 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Modern normalize -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google fonts -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lemon&family=Marcellus&family=Mulish:wght@400;600;700;800&family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Our stylesheets -->
+
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>TV Shows and Movies</title>
   </head>
   <body>
+    <!-- Navigation -->
+
     <header class="header">
-      <a class="header-logo" href="./index.html">
-        <span class="header-logo-m">M</span>box</a
-      >
-      <nav class="header-nav">
-        <ul class="header-nav-list">
-          <li class="header-nav-list-item">
-            <a class="header-nav-list-link" href="">Home</a>
+      <div class="container header-container">
+        <a class="header-logo" href="./index.html">
+          <span class="header-logo-m">M</span>box</a
+        >
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-list-item">
+              <a class="header-nav-list-link" href="">Home</a>
+            </li>
+            <li class="header-nav-list-item">
+              <a class="header-nav-list-link" href="">TV Shows</a>
+            </li>
+            <li class="header-nav-list-item">
+              <a class="header-nav-list-link" href="">Movies</a>
+            </li>
+            <li class="header-nav-list-item">
+              <a class="header-nav-list-link" href="">Series</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-icon-list">
+          <li class="header-icon-list-item">
+            <p class="header-icon-list-item-desc">Icon</p>
           </li>
-          <li class="header-nav-list-item">
-            <a class="header-nav-list-link" href="">TV Shows</a>
+          <li class="header-icon-list-item">
+            <p class="header-icon-list-item-desc">Icon</p>
           </li>
-          <li class="header-nav-list-item">
-            <a class="header-nav-list-link" href="">Movies</a>
-          </li>
-          <li class="header-nav-list-item">
-            <a class="header-nav-list-link" href="">Series</a>
+          <li class="header-icon-list-item">
+            <p class="header-icon-list-item-desc">Icon</p>
           </li>
         </ul>
-      </nav>
-      <ul class="header-icon-list">
-        <li class="header-icon-list-item">
-          <p class="header-icon-list-item-desc">Icon</p>
+      </div>
+    </header>
+    <section>
+      <h1 class="hero-title">Zack Snyder's Justice League</h1>
+      <ul class="hero-list">
+        <li>
+          <p>2021</p>
         </li>
-        <li class="header-icon-list-item">
-          <p class="header-icon-list-item-desc">Icon</p>
+        <li>
+          <p>18+</p>
         </li>
-        <li class="header-icon-list-item">
-          <p class="header-icon-list-item-desc">Icon</p>
+        <li>
+          <p>4h 2min</p>
+        </li>
+        <li>
+          <p>8.8</p>
         </li>
       </ul>
-    </header>
+      <p class="hero-list-desc">
+        Determined to ensure Superman's ultimate sacrifice was not in vain,
+        Bruce Wayne aligns forces with Diana Prince with plans to recruit a team
+        of metahumans to protect the world from an approaching threat of
+        catastrophic proportions.
+      </p>
+      <ul class="button-list">
+        <li><button type="button">Watch</button></li>
+        <li><button type="button">More information</button></li>
+      </ul>
+    </section>
   </body>
 </html>
